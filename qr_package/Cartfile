@@ -1,0 +1,2 @@
+github "eggswift/ESTabBarController"
+github "SnapKit/SnapKit" ~> 3.2.0

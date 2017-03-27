@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34453D571E85088600EA839E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34453D561E85088600EA839E /* AppDelegate.swift */; };
+		34453D591E85088600EA839E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34453D581E85088600EA839E /* ViewController.swift */; };
+		34453D5E1E85088600EA839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34453D5D1E85088600EA839E /* Assets.xcassets */; };
+		34453D611E85088600EA839E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34453D5F1E85088600EA839E /* LaunchScreen.storyboard */; };
+		34453D711E851C5300EA839E /* ESTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34453D701E851C5300EA839E /* ESTabBarController.framework */; };
+		348664A91E88DBA6006DEED2 /* QRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664A81E88DBA6006DEED2 /* QRBaseViewController.swift */; };
+		348664AE1E88DC0F006DEED2 /* QRPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664AD1E88DC0F006DEED2 /* QRPackageViewController.swift */; };
+		348664B21E88E1A4006DEED2 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B11E88E1A4006DEED2 /* QRScanViewController.swift */; };
+		348664B41E88E1B4006DEED2 /* QROtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B31E88E1B4006DEED2 /* QROtherViewController.swift */; };
+		348664B61E88E375006DEED2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348664B51E88E375006DEED2 /* SnapKit.framework */; };
+		348664B81E88E7C4006DEED2 /* QRBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B71E88E7C4006DEED2 /* QRBaseNavigationController.swift */; };
+		348664BA1E88E97D006DEED2 /* QRBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B91E88E97D006DEED2 /* QRBaseTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34453D531E85088600EA839E /* qr_package.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qr_package.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34453D561E85088600EA839E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34453D581E85088600EA839E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34453D5D1E85088600EA839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34453D601E85088600EA839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34453D621E85088600EA839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34453D701E851C5300EA839E /* ESTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTabBarController.framework; path = Carthage/Build/iOS/ESTabBarController.framework; sourceTree = "<group>"; };
+		348664A81E88DBA6006DEED2 /* QRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBaseViewController.swift; sourceTree = "<group>"; };
+		348664AD1E88DC0F006DEED2 /* QRPackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRPackageViewController.swift; sourceTree = "<group>"; };
+		348664B11E88E1A4006DEED2 /* QRScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		348664B31E88E1B4006DEED2 /* QROtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROtherViewController.swift; sourceTree = "<group>"; };
+		348664B51E88E375006DEED2 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		348664B71E88E7C4006DEED2 /* QRBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBaseNavigationController.swift; sourceTree = "<group>"; };
+		348664B91E88E97D006DEED2 /* QRBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBaseTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34453D501E85088500EA839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348664B61E88E375006DEED2 /* SnapKit.framework in Frameworks */,
+				34453D711E851C5300EA839E /* ESTabBarController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34453D4A1E85088500EA839E = {
+			isa = PBXGroup;
+			children = (
+				34453D551E85088600EA839E /* qr_package */,
+				34453D541E85088600EA839E /* Products */,
+				34453D6F1E851C5300EA839E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34453D541E85088600EA839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34453D531E85088600EA839E /* qr_package.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34453D551E85088600EA839E /* qr_package */ = {
+			isa = PBXGroup;
+			children = (
+				3486649A1E88A885006DEED2 /* Src */,
+				34453D561E85088600EA839E /* AppDelegate.swift */,
+				34453D581E85088600EA839E /* ViewController.swift */,
+				34453D5D1E85088600EA839E /* Assets.xcassets */,
+				34453D5F1E85088600EA839E /* LaunchScreen.storyboard */,
+				34453D621E85088600EA839E /* Info.plist */,
+			);
+			path = qr_package;
+			sourceTree = "<group>";
+		};
+		34453D6F1E851C5300EA839E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				348664B51E88E375006DEED2 /* SnapKit.framework */,
+				34453D701E851C5300EA839E /* ESTabBarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3486649A1E88A885006DEED2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				348664A41E88DB7D006DEED2 /* Base */,
+				348664A11E88DB60006DEED2 /* Other */,
+				348664A21E88DB60006DEED2 /* Package */,
+				348664A31E88DB60006DEED2 /* Scan */,
+				3486649B1E88A8BA006DEED2 /* TabbarViewController */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		3486649B1E88A8BA006DEED2 /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabbarViewController;
+			sourceTree = "<group>";
+		};
+		348664A11E88DB60006DEED2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				348664B01E88E18B006DEED2 /* Main */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		348664A21E88DB60006DEED2 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				348664AC1E88DC0F006DEED2 /* Main */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		348664A31E88DB60006DEED2 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				348664AF1E88E183006DEED2 /* Main */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		348664A41E88DB7D006DEED2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				348664A51E88DB7D006DEED2 /* Model */,
+				348664A61E88DB7D006DEED2 /* View */,
+				348664A71E88DB7D006DEED2 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		348664A51E88DB7D006DEED2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		348664A61E88DB7D006DEED2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				348664B91E88E97D006DEED2 /* QRBaseTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		348664A71E88DB7D006DEED2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				348664A81E88DBA6006DEED2 /* QRBaseViewController.swift */,
+				348664B71E88E7C4006DEED2 /* QRBaseNavigationController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		348664AC1E88DC0F006DEED2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				348664AD1E88DC0F006DEED2 /* QRPackageViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		348664AF1E88E183006DEED2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				348664B11E88E1A4006DEED2 /* QRScanViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		348664B01E88E18B006DEED2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				348664B31E88E1B4006DEED2 /* QROtherViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34453D521E85088500EA839E /* qr_package */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34453D651E85088600EA839E /* Build configuration list for PBXNativeTarget "qr_package" */;
+			buildPhases = (
+				34453D4F1E85088500EA839E /* Sources */,
+				34453D501E85088500EA839E /* Frameworks */,
+				34453D511E85088500EA839E /* Resources */,
+				34453D6E1E85179100EA839E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qr_package;
+			productName = qr_package;
+			productReference = 34453D531E85088600EA839E /* qr_package.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34453D4B1E85088500EA839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xiawan;
+				TargetAttributes = {
+					34453D521E85088500EA839E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BCY9S58BMD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34453D4E1E85088500EA839E /* Build configuration list for PBXProject "qr_package" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34453D4A1E85088500EA839E;
+			productRefGroup = 34453D541E85088600EA839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34453D521E85088500EA839E /* qr_package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34453D511E85088500EA839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34453D611E85088600EA839E /* LaunchScreen.storyboard in Resources */,
+				34453D5E1E85088600EA839E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34453D6E1E85179100EA839E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ESTabBarController.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34453D4F1E85088500EA839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34453D591E85088600EA839E /* ViewController.swift in Sources */,
+				348664BA1E88E97D006DEED2 /* QRBaseTableView.swift in Sources */,
+				348664A91E88DBA6006DEED2 /* QRBaseViewController.swift in Sources */,
+				348664B41E88E1B4006DEED2 /* QROtherViewController.swift in Sources */,
+				348664B81E88E7C4006DEED2 /* QRBaseNavigationController.swift in Sources */,
+				348664AE1E88DC0F006DEED2 /* QRPackageViewController.swift in Sources */,
+				348664B21E88E1A4006DEED2 /* QRScanViewController.swift in Sources */,
+				34453D571E85088600EA839E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34453D5F1E85088600EA839E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34453D601E85088600EA839E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34453D631E85088600EA839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34453D641E85088600EA839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34453D661E85088600EA839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BCY9S58BMD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = qr_package/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiawan.qr-package";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34453D671E85088600EA839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BCY9S58BMD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = qr_package/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiawan.qr-package";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34453D4E1E85088500EA839E /* Build configuration list for PBXProject "qr_package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34453D631E85088600EA839E /* Debug */,
+				34453D641E85088600EA839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34453D651E85088600EA839E /* Build configuration list for PBXNativeTarget "qr_package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34453D661E85088600EA839E /* Debug */,
+				34453D671E85088600EA839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34453D4B1E85088500EA839E /* Project object */;
+}
