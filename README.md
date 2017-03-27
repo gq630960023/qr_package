@@ -7,7 +7,7 @@
 3. swift练手.
 4. 个人的作品.
 
-##感谢
+## 感谢
 应用的开发中使用了以下三方代码, 感谢你们的分享精神,让这个应用变成了可能!
 1. [SnapKit](https://github.com/SnapKit/SnapKit)
 2. [ESTabBarController](https://github.com/eggswift/ESTabBarController)
