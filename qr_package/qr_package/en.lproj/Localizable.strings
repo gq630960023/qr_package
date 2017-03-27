@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  qr_package
+
+  Created by 郭琦 on 2017/3/27.
+  Copyright © 2017年 xiawan. All rights reserved.
+*/
+
+"hello" = "hello";
+
+"tab_Package" = "dd";
+
+"tab_other" = "other";
+
+"tab_scan" = "scan";

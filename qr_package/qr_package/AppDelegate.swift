@@ -67,9 +67,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         v2.tabBarItem = ESTabBarItem.init(title: "扫描", image: nil, selectedImage: nil, tag: 2)
         v3.tabBarItem = ESTabBarItem.init(title: "其他", image: nil, selectedImage: nil, tag: 3)
         
-        v1.title = "口袋"
-        v2.title = "扫描"
-        v3.title = "其他"
+        v1.title = QRLocalized(string: QRLocal.tab_package.rawValue)
+        v2.title = QRLocalized(string: QRLocal.tab_scan.rawValue)
+        v3.title = QRLocalized(string: QRLocal.tab_other.rawValue)
         
         let n1 = QRBaseNavigationController.init(rootViewController: v1)
         let n2 = QRBaseNavigationController.init(rootViewController: v2)

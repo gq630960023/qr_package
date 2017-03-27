@@ -19,6 +19,9 @@
 		348664B61E88E375006DEED2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348664B51E88E375006DEED2 /* SnapKit.framework */; };
 		348664B81E88E7C4006DEED2 /* QRBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B71E88E7C4006DEED2 /* QRBaseNavigationController.swift */; };
 		348664BA1E88E97D006DEED2 /* QRBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664B91E88E97D006DEED2 /* QRBaseTableView.swift */; };
+		348664BD1E88EBC7006DEED2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 348664BF1E88EBC7006DEED2 /* Localizable.strings */; };
+		348664C31E88F3EF006DEED2 /* QRDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664C21E88F3EF006DEED2 /* QRDefine.swift */; };
+		348664C51E88F526006DEED2 /* QREnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348664C41E88F526006DEED2 /* QREnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,10 @@
 		348664B51E88E375006DEED2 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		348664B71E88E7C4006DEED2 /* QRBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBaseNavigationController.swift; sourceTree = "<group>"; };
 		348664B91E88E97D006DEED2 /* QRBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBaseTableView.swift; sourceTree = "<group>"; };
+		348664BE1E88EBC7006DEED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		348664C01E88EBE5006DEED2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		348664C21E88F3EF006DEED2 /* QRDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDefine.swift; sourceTree = "<group>"; };
+		348664C41E88F526006DEED2 /* QREnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QREnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +78,14 @@
 		34453D551E85088600EA839E /* qr_package */ = {
 			isa = PBXGroup;
 			children = (
+				348664C11E88F3CD006DEED2 /* Res */,
 				3486649A1E88A885006DEED2 /* Src */,
 				34453D561E85088600EA839E /* AppDelegate.swift */,
 				34453D581E85088600EA839E /* ViewController.swift */,
 				34453D5D1E85088600EA839E /* Assets.xcassets */,
 				34453D5F1E85088600EA839E /* LaunchScreen.storyboard */,
 				34453D621E85088600EA839E /* Info.plist */,
+				348664BF1E88EBC7006DEED2 /* Localizable.strings */,
 			);
 			path = qr_package;
 			sourceTree = "<group>";
@@ -191,6 +200,15 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		348664C11E88F3CD006DEED2 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				348664C21E88F3EF006DEED2 /* QRDefine.swift */,
+				348664C41E88F526006DEED2 /* QREnum.swift */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 34453D4A1E85088500EA839E;
 			productRefGroup = 34453D541E85088600EA839E /* Products */;
@@ -253,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34453D611E85088600EA839E /* LaunchScreen.storyboard in Resources */,
+				348664BD1E88EBC7006DEED2 /* Localizable.strings in Resources */,
 				34453D5E1E85088600EA839E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +307,9 @@
 				348664A91E88DBA6006DEED2 /* QRBaseViewController.swift in Sources */,
 				348664B41E88E1B4006DEED2 /* QROtherViewController.swift in Sources */,
 				348664B81E88E7C4006DEED2 /* QRBaseNavigationController.swift in Sources */,
+				348664C51E88F526006DEED2 /* QREnum.swift in Sources */,
 				348664AE1E88DC0F006DEED2 /* QRPackageViewController.swift in Sources */,
+				348664C31E88F3EF006DEED2 /* QRDefine.swift in Sources */,
 				348664B21E88E1A4006DEED2 /* QRScanViewController.swift in Sources */,
 				34453D571E85088600EA839E /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +326,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		348664BF1E88EBC7006DEED2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348664BE1E88EBC7006DEED2 /* en */,
+				348664C01E88EBE5006DEED2 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -311,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -361,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
